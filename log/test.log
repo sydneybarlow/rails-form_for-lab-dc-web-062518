@@ -2526,3 +2526,5 @@ Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
 Started GET "/school_classes/1" for 127.0.0.1 at 2018-07-24 23:37:32 +0000
 Processing by SchoolClassesController#show as HTML
   Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 70504ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
