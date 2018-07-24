@@ -16,7 +16,7 @@ class SchoolClassesController < ApplicationController
   end
   
   def show 
-    # binding.pry
+    binding.pry
     @school_classes = SchoolClass.find(params[:id])
   end
   
