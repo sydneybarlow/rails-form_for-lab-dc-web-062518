@@ -15,6 +15,7 @@ class SchoolClassesController < ApplicationController
   end
   
   def show 
+    binding.rpy
     @school_class = SchoolClass.find(params[:school_class][:id])
   end
   
