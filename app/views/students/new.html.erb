@@ -1,8 +1,8 @@
 <h1>Student Form</h1>
 <%= form_for @school_class do |f| %>
-<%= f.label "Title" %>
-<%= f.text_area :title %>
-<%= f.label "Room Number" %>
-<%= f.text_area :room_number %>
-<%= f.submit "Create School class" %>
+<%= f.label "First Name" %>
+<%= f.text_area :first_name %>
+<%= f.label "Last Name" %>
+<%= f.text_area :last_name %>
+<%= f.submit "Create Student" %>
 <% end %>
