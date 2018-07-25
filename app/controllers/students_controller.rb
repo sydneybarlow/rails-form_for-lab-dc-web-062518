@@ -17,11 +17,11 @@ class StudentsController < ApplicationController
   
   def show 
     binding.pry
-    @student = Student.find(params[:student][:id])
+    @student = Student.find(params[:id])
   end
   
   def edit
-    @student = Student.find(params[:student][:id])
+    @student = Student.find(params[:id])
   end
   
   def update 
